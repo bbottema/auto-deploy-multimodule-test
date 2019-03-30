@@ -10,7 +10,6 @@ mvn-collect-artifacts-command: &mvn-collect-artifacts-command
   mvn-collect-artifacts-command: |
     mkdir -p artifacts/cli artifacts/coverage artifacts/junit artifacts/javadoc
     cp **/target/*.jar artifacts/
-    cp modules/cli-module/target/*standalone* artifacts/cli/
     cp -a target/apidocs/. artifacts/javadoc/
     cp -a modules/jacoco-aggregator-module/target/site/jacoco-aggregate/. artifacts/coverage/
     cp -a **/target/surefire-reports/. artifacts/junit
