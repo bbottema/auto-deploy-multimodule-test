@@ -9,6 +9,7 @@
     <version>1.0.0</version>
  
     <name>Simple Java Mail Multimodule Test</name>
+    <description>Testing out multimodule auto-deployments with CircleCI</description>
     <url>http://www.simplejavamail.org/</url>
  
     <properties>
