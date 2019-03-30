@@ -4,11 +4,11 @@ orbs:
   github-maven-deploy: github-maven-deploy/github-maven-deploy@dev:21
 
 mvn-build-test-command: &mvn-build-test-command
-  mvn-build-test-command: mvn verify -DexcludeLiveServerTests=true -Dmaven.javadoc.skip=true
+  mvn-build-test-command: mvn verify -DexcludeLiveServerTests=true
 
 mvn-collect-artifacts-command: &mvn-collect-artifacts-command
   mvn-collect-artifacts-command: |
-    mkdir -p artifacts/cli artifacts/coverage artifacts/junit artifacts/javadoc
+    mkdir -p artifacts/coverage artifacts/junit artifacts/javadoc
     cp **/target/*.jar artifacts/
     cp -a target/apidocs/. artifacts/javadoc/
     cp -a modules/jacoco-aggregator-module/target/site/jacoco-aggregate/. artifacts/coverage/
