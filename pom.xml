@@ -6,7 +6,7 @@
     <groupId>org.simplejavamail</groupId>
     <artifactId>simple-java-mail-multimodule-test</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
  
     <name>Simple Java Mail Multimodule Test</name>
     <description>Testing out multimodule auto-deployments with CircleCI</description>
