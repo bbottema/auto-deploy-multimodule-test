@@ -1,6 +1,6 @@
-package org.simplejavamail.internal.outlooksupport.converter;
+package org.simplejavamail.moduleb;
 
-import org.simplejavamail.internal.dkimsupport.ModuleAClass;
+import org.simplejavamail.modulea.ModuleAClass;
 
 public class ModuleBClass {
 	

@@ -1,4 +1,4 @@
-package org.simplejavamail.internal.outlooksupport.converter;
+package org.simplejavamail.moduleb;
 
 import org.junit.Test;
 

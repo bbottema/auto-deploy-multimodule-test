@@ -1,4 +1,4 @@
-package org.simplejavamail.internal.dkimsupport;
+package org.simplejavamail.modulea;
 
 import static org.junit.Assert.assertTrue;
 
